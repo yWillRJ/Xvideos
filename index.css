@@ -315,14 +315,21 @@ body {
     justify-content: center;
 
 }
-
-.ads a {
+.ads{
     display: flex;
     justify-content: space-between;
-    height: 450px;
     margin: 0px 25px;
-    margin-top: -200px;
+    height: 350px;
+    width: 263.66px;
+    gap: 1185px;
 }
+.ads a{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+}
+
+
 
 .adslow a{
     display: flex;
