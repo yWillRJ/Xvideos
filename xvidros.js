@@ -37,11 +37,3 @@ a3.forEach((a5) => {
         a5.src = "/mohamed.png"
     })
 })
-
-
-
-
-
-// a5.src=`
-// https://el.phncdn.com/gif/45027791.gif
-// `

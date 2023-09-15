@@ -9,15 +9,16 @@ a {
 
 body {
     background-color: #161616;
-
 }
 
 .topo {
+    justify-content: space-around;
     color: #fff;
     display: flex;
     align-items: center;
     margin-top: 5px;
     margin-bottom: 5px;
+    width: 100%;
 }
 
 #logo {
@@ -309,31 +310,34 @@ body {
 
 .videomohamed {
     display: flex;
-    width: 1300px;
+    width: 100%;
     height: 516px;
     margin-bottom: 30px;
     justify-content: center;
 
 }
-.ads{
+
+.ads {
     display: flex;
     justify-content: space-between;
     margin: 0px 25px;
     height: 350px;
-    width: 263.66px;
-    gap: 1185px;
+    /* width: 263.66px; */
+    max-width: 100%;
 }
-.ads a{
+
+.ads a {
     display: flex;
     justify-content: space-between;
     margin: 0px 25px;
+    width: 263.66px;
 }
 
 
 
-.adslow a{
+.adslow a {
     display: flex;
     justify-content: center;
     height: 130px;
-    margin-top:200px;
+    margin-top: 200px;
 }
